@@ -1,2 +1,3 @@
-# text-search
-Find and highlight matching text in search results
+# Text Search
+
+Find and highlight text in matching search results

@@ -1,0 +1,55 @@
+{
+  "resultsCount": 10,
+  "data": [
+    {
+      "id": 1,
+      "animal": "octopus",
+      "content": "Octopuses have three hearts and blue blood."
+    },
+    {
+      "id": 2,
+      "animal": "sloth",
+      "content": "Sloths can hold their breath longer than dolphins by slowing their heart rate."
+    },
+    {
+      "id": 3,
+      "animal": "flamingo",
+      "content": "A group of flamingos is called a flamboyance."
+    },
+    {
+      "id": 4,
+      "animal": "elephant",
+      "content": "Elephants are the only animals that cannot jump."
+    },
+    {
+      "id": 5,
+      "animal": "cow",
+      "content": "Cows form close bonds and have best friends."
+    },
+    {
+      "id": 6,
+      "animal": "seahorse",
+      "content": "Male seahorses are the ones that carry and give birth to babies."
+    },
+    {
+      "id": 7,
+      "animal": "frog",
+      "content": "Frogs can freeze without dying and thaw out later."
+    },
+    {
+      "id": 8,
+      "animal": "snail",
+      "content": "A snail can sleep for up to three years."
+    },
+    {
+      "id": 9,
+      "animal": "shrimp",
+      "content": "A shrimp's heart is located in its head."
+    },
+    {
+      "id": 10,
+      "animal": "butterfly",
+      "content": "Butterflies can taste with their feet."
+    }
+  ]
+}
