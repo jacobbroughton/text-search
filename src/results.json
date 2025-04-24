@@ -2,259 +2,254 @@
   "resultsCount": 10,
   "data": [
     {
-      "id": 999,
-      "animal": "octopus",
-      "content": "Test with multiple words like this and this here"
-    },
-    {
       "id": 1,
       "animal": "octopus",
-      "content": "Octopuses can regrow lost arms."
+      "content": "Octopuses can change color, change texture, and even mimic other animals to blend into their surroundings."
     },
     {
       "id": 2,
-      "animal": "sloth",
-      "content": "Sloths move so slowly that algae grow on their fur."
+      "animal": "elephant",
+      "content": "Elephants have incredible memory, incredible strength, and an incredible social structure."
     },
     {
       "id": 3,
-      "animal": "flamingo",
-      "content": "Flamingos get their pink color from the food they eat."
+      "animal": "tiger",
+      "content": "Tigers are powerful predators, known for their strength, stealth, and solitary habits."
     },
     {
       "id": 4,
-      "animal": "elephant",
-      "content": "Elephants mourn their dead and show empathy."
+      "animal": "penguin",
+      "content": "Penguins are flightless birds that huddle together for warmth during freezing Antarctic winters."
     },
     {
       "id": 5,
-      "animal": "cow",
-      "content": "Cows can remember things for a long time and hold grudges."
+      "animal": "giraffe",
+      "content": "Giraffes use their long necks to browse treetops, communicate with necking gestures, and spot predators from afar."
     },
     {
       "id": 6,
-      "animal": "seahorse",
-      "content": "Seahorses use their tails to anchor to seagrasses and corals."
+      "animal": "zebra",
+      "content": "Zebras have unique stripe patterns that help with camouflage, social bonding, and predator confusion."
     },
     {
       "id": 7,
-      "animal": "frog",
-      "content": "There are over 6,000 species of frogs."
+      "animal": "koala",
+      "content": "Koalas feed mainly on eucalyptus leaves, which are toxic to most animals, but koalas have special adaptations."
     },
     {
       "id": 8,
-      "animal": "snail",
-      "content": "Snails can have thousands of tiny teeth on their tongue-like organ called a radula."
+      "animal": "kangaroo",
+      "content": "Kangaroos can travel long distances, cover ground quickly, and use their tails for balance while hopping."
     },
     {
       "id": 9,
-      "animal": "shrimp",
-      "content": "Shrimp are found on every continent\u2019s coastline."
+      "animal": "whale",
+      "content": "Whales communicate over vast distances, migrate thousands of miles, and surface to breathe through blowholes."
     },
     {
       "id": 10,
-      "animal": "butterfly",
-      "content": "Butterflies cannot fly if they are cold."
+      "animal": "dolphin",
+      "content": "Dolphins use echolocation to hunt, socialize in pods, and display complex behaviors like play and problem-solving."
     },
     {
       "id": 11,
-      "animal": "octopus",
-      "content": "Octopuses are considered highly intelligent and can solve puzzles."
+      "animal": "lion",
+      "content": "Lions live in prides, hunt cooperatively, and are known for their majestic manes and roaring calls."
     },
     {
       "id": 12,
-      "animal": "sloth",
-      "content": "A sloth\u2019s grip is so strong it can stay attached to a tree even after death."
+      "animal": "cheetah",
+      "content": "Cheetahs are the fastest land animals, accelerating faster than most sports cars in short bursts."
     },
     {
       "id": 13,
-      "animal": "flamingo",
-      "content": "Flamingos often stand on one leg to conserve body heat."
+      "animal": "bear",
+      "content": "Bears hibernate during winter, forage widely in summer, and have a powerful sense of smell."
     },
     {
       "id": 14,
-      "animal": "elephant",
-      "content": "African elephants have larger ears than Asian elephants."
+      "animal": "panda",
+      "content": "Pandas eat mostly bamboo, despite being classified as carnivores, and are known for their gentle demeanor."
     },
     {
       "id": 15,
-      "animal": "cow",
-      "content": "Cows have four stomach compartments."
+      "animal": "rhinoceros",
+      "content": "Rhinoceroses have thick skin, strong horns, and face danger from poaching despite being herbivores."
     },
     {
       "id": 16,
-      "animal": "seahorse",
-      "content": "Seahorses have no stomach and must eat constantly."
+      "animal": "hippopotamus",
+      "content": "Hippopotamuses spend most of their time in water to stay cool, though they are not good swimmers."
     },
     {
       "id": 17,
-      "animal": "frog",
-      "content": "Some frogs can leap over 20 times their body length."
+      "animal": "wolf",
+      "content": "Wolves live in packs with a strict social hierarchy, hunt cooperatively, and communicate by howling."
     },
     {
       "id": 18,
-      "animal": "snail",
-      "content": "Snails move using a muscular foot that produces mucus."
+      "animal": "fox",
+      "content": "Foxes adapt well to urban environments, use their bushy tails for balance, and are skilled hunters."
     },
     {
       "id": 19,
-      "animal": "shrimp",
-      "content": "Shrimp can change color to blend in with surroundings."
+      "animal": "deer",
+      "content": "Deer grow antlers annually, which are shed and regrown, and use them in mating displays and battles."
     },
     {
       "id": 20,
-      "animal": "butterfly",
-      "content": "Butterflies undergo complete metamorphosis from caterpillar to adult."
+      "animal": "moose",
+      "content": "Moose are the largest members of the deer family, often seen in northern forests and wetlands."
     },
     {
       "id": 21,
-      "animal": "octopus",
-      "content": "Octopuses can change the texture of their skin to blend into their surroundings."
+      "animal": "camel",
+      "content": "Camels store fat in their humps, tolerate extreme dehydration, and are essential in desert travel."
     },
     {
       "id": 22,
-      "animal": "sloth",
-      "content": "Sloths come down from trees only once a week to defecate."
+      "animal": "leopard",
+      "content": "Leopards are elusive cats that can haul prey up trees, adapt to diverse habitats, and avoid larger predators."
     },
     {
       "id": 23,
-      "animal": "flamingo",
-      "content": "Flamingos form strong pair bonds during mating season."
+      "animal": "jaguar",
+      "content": "Jaguars have the strongest bite of any big cat, able to crack turtle shells and crush skulls."
     },
     {
       "id": 24,
-      "animal": "elephant",
-      "content": "Elephants use their trunks to smell, breathe, trumpet, drink, and grab things."
+      "animal": "sloth",
+      "content": "Sloths move slowly to conserve energy, hang upside down from trees, and host algae in their fur."
     },
     {
       "id": 25,
-      "animal": "cow",
-      "content": "Cows lie down and stand up around 14 times a day."
+      "animal": "armadillo",
+      "content": "Armadillos have tough armor-like shells, dig burrows for shelter, and can roll into a ball for defense."
     },
     {
       "id": 26,
-      "animal": "seahorse",
-      "content": "Seahorses swim upright unlike most fish."
+      "animal": "bat",
+      "content": "Bats use echolocation to navigate at night, eat insects or fruit, and are the only flying mammals."
     },
     {
       "id": 27,
-      "animal": "frog",
-      "content": "Frogs use their eyes to help push food down their throat."
+      "animal": "owl",
+      "content": "Owls have silent flight due to special feather structure, exceptional night vision, and can rotate their heads."
     },
     {
       "id": 28,
-      "animal": "snail",
-      "content": "Some species of snail can live up to 25 years."
+      "animal": "eagle",
+      "content": "Eagles have sharp talons, powerful vision, and build enormous nests high in trees or cliffs."
     },
     {
       "id": 29,
-      "animal": "shrimp",
-      "content": "Some shrimp species can snap their claws to create bubbles that stun prey."
+      "animal": "hawk",
+      "content": "Hawks soar with outstretched wings, dive at high speeds, and have razor-sharp beaks and claws."
     },
     {
       "id": 30,
-      "animal": "butterfly",
-      "content": "Butterflies taste with their feet using chemoreceptors."
+      "animal": "falcon",
+      "content": "Falcons are known for their speed, especially the peregrine falcon, which dives faster than any other bird."
     },
     {
       "id": 31,
-      "animal": "octopus",
-      "content": "Some octopuses use coconut shells as mobile shelters."
+      "animal": "parrot",
+      "content": "Parrots mimic human speech, live long lives, and are among the most intelligent bird species."
     },
     {
       "id": 32,
-      "animal": "sloth",
-      "content": "Sloths have a four-part stomach to help digest tough leaves."
+      "animal": "flamingo",
+      "content": "Flamingos get their pink color from their diet, stand on one leg often, and filter-feed in shallow waters."
     },
     {
       "id": 33,
-      "animal": "flamingo",
-      "content": "Flamingos filter-feed by holding their beaks upside down in the water."
+      "animal": "swan",
+      "content": "Swans mate for life, glide gracefully over water, and are fiercely protective of their young."
     },
     {
       "id": 34,
-      "animal": "elephant",
-      "content": "Elephants communicate using infrasound below human hearing levels."
+      "animal": "duck",
+      "content": "Ducks dabble in shallow water for food, migrate in flocks, and have waterproof feathers."
     },
     {
       "id": 35,
-      "animal": "cow",
-      "content": "Cows have nearly 300-degree panoramic vision."
+      "animal": "goose",
+      "content": "Geese migrate in V-shaped formations, defend territory aggressively, and have strong family bonds."
     },
     {
       "id": 36,
-      "animal": "seahorse",
-      "content": "Seahorses mate for life in many species."
+      "animal": "chicken",
+      "content": "Chickens communicate with over 30 distinct vocalizations, establish a pecking order, and lay eggs frequently."
     },
     {
       "id": 37,
-      "animal": "frog",
-      "content": "Frogs absorb water through their skin instead of drinking."
+      "animal": "turkey",
+      "content": "Turkeys fan their tail feathers, gobble loudly, and have a distinctive snood hanging from their beaks."
     },
     {
       "id": 38,
-      "animal": "snail",
-      "content": "Some land snails can climb trees and even glass."
+      "animal": "peacock",
+      "content": "Peacocks display extravagant tail feathers to attract mates, making them a symbol of beauty and pride."
     },
     {
       "id": 39,
-      "animal": "shrimp",
-      "content": "Cleaner shrimp remove parasites from other fish."
+      "animal": "sparrow",
+      "content": "Sparrows thrive in urban areas, build nests in buildings, and chirp with a rapid series of short notes."
     },
     {
       "id": 40,
-      "animal": "butterfly",
-      "content": "Butterflies have a liquid diet and drink nectar using a proboscis."
+      "animal": "crow",
+      "content": "Crows use tools, recognize human faces, and solve complex problems, making them highly intelligent birds."
     },
     {
       "id": 41,
-      "animal": "octopus",
-      "content": "Octopuses have no bones, allowing them to squeeze through tiny gaps."
+      "animal": "ant",
+      "content": "Ants form colonies with complex roles, build intricate tunnels, and work together to gather food."
     },
     {
       "id": 42,
-      "animal": "sloth",
-      "content": "Sloths can turn their heads up to 270 degrees."
+      "animal": "bee",
+      "content": "Bees pollinate flowers, produce honey, and communicate using a unique waggle dance."
     },
     {
       "id": 43,
-      "animal": "flamingo",
-      "content": "Baby flamingos are born with gray feathers."
+      "animal": "wasp",
+      "content": "Wasps build paper-like nests, defend them aggressively, and can sting multiple times."
     },
     {
       "id": 44,
-      "animal": "elephant",
-      "content": "Elephants have excellent memories and can recognize individuals after years."
+      "animal": "butterfly",
+      "content": "Butterflies undergo metamorphosis, migrate long distances, and have taste sensors on their feet."
     },
     {
       "id": 45,
-      "animal": "cow",
-      "content": "Cows can smell something up to six miles away."
+      "animal": "moth",
+      "content": "Moths are mostly nocturnal, attracted to light, and have feathery antennae distinct from butterflies."
     },
     {
       "id": 46,
-      "animal": "seahorse",
-      "content": "Seahorses are poor swimmers and often rely on camouflage."
+      "animal": "cricket",
+      "content": "Crickets chirp by rubbing wings together, use their song to attract mates, and are active at night."
     },
     {
       "id": 47,
-      "animal": "frog",
-      "content": "Some frogs are poisonous and can be lethal to predators."
+      "animal": "grasshopper",
+      "content": "Grasshoppers can leap long distances, produce sound by stridulation, and are plant-eating insects."
     },
     {
       "id": 48,
-      "animal": "snail",
-      "content": "Snails are hermaphrodites, meaning they have both male and female organs."
+      "animal": "frog",
+      "content": "Frogs have permeable skin, long legs for jumping, and undergo a tadpole stage during development."
     },
     {
       "id": 49,
-      "animal": "shrimp",
-      "content": "Shrimp have compound eyes that give them a wide field of vision."
+      "animal": "toad",
+      "content": "Toads have dry, bumpy skin, lay eggs in strings, and often walk instead of hopping."
     },
     {
       "id": 50,
-      "animal": "butterfly",
-      "content": "Some butterflies migrate thousands of miles, like the monarch."
+      "animal": "lizard",
+      "content": "Lizards can detach their tails to escape predators, bask for heat, and rapidly dart away from threats."
     }
   ]
 }

@@ -58,6 +58,7 @@ div.search-container > .input-and-reset-container > button {
   display: flex;
   align-items: center;
   justify-content: center;
+  appearance: none;
   cursor: pointer;
 }
 
@@ -68,6 +69,8 @@ div.search-container > .input-and-reset-container > button:disabled {
 
 div.search-container > .input-and-reset-container > button > svg {
   fill: white;
+  min-width: 16px;
+  width: 16px;
 }
 
 div.search-container > .input-and-reset-container > button:disabled > svg {
