@@ -3,6 +3,7 @@ import jsonData from "./results.json";
 import "./App.css";
 import ResultListItem from "./components/ResultListItem/ResultListItem";
 import { ResultType } from "./types";
+import XIcon from "./components/icons/XIcon/XIcon";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
@@ -20,20 +21,37 @@ function App() {
     fetchData();
   }, []);
 
+  function handleResetSearchClick() {
+    setSearchInput("");
+  }
+
+  const filteredResults = results.filter((result) =>
+    result.content.includes(searchInput)
+  );
+
   return (
     <>
-      <h1>Find and highlight all instances of your searched phrase</h1>
+      <h1>Find and highlight all instances of your searched phrase.</h1>
       <div className="search-container">
         <label>Search something</label>
-        <input value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
+        <div className="input-and-reset-container">
+          <input value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
+          <button onClick={handleResetSearchClick} disabled={searchInput === ""}>
+            <XIcon />
+          </button>
+        </div>
       </div>
-      <ul>
-        {results
-          .filter((result) => result.content.includes(searchInput))
-          .map((result) => (
-            <ResultListItem result={result} searchInput={searchInput} />
-          ))}
-      </ul>
+      {filteredResults.length ? (
+        <ul>
+          {results
+            .filter((result) => result.content.includes(searchInput))
+            .map((result) => (
+              <ResultListItem result={result} searchInput={searchInput} />
+            ))}
+        </ul>
+      ) : (
+        <p className="no-results">No results found</p>
+      )}
     </>
   );
 }

@@ -10,26 +10,35 @@ div.search-container {
   flex-direction: column;
   align-items: flex-start;
   gap: 2px;
+  width: 100%;
 }
 
 div.search-container > label {
   font-size: 0.875rem;
 }
 
-div.search-container > input {
-  padding: 10px;
+div.search-container > .input-and-reset-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 10px;
+  width: 100%;
+}
+
+div.search-container > .input-and-reset-container > input {
+  padding: 5px 10px;
   border: 1px solid grey;
   background-color: #333;
-  margin-right: auto;
   border-radius: 3px;
   display: block;
   position: relative;
   font-size: 1rem;
   border-left: 5px teal solid;
   color: white;
+  outline-offset: 5px;
 }
 
-div.search-container > input::before {
+div.search-container > .input-and-reset-container > input::before {
   content: "Search something";
   display: block;
   position: absolute;
@@ -39,10 +48,35 @@ div.search-container > input::before {
   color: white;
 }
 
+div.search-container > .input-and-reset-container > button {
+  height: 100%;
+  width: 30px;
+  border: 1px solid grey;
+  background-color: #333;
+  border-radius: 3px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+div.search-container > .input-and-reset-container > button:disabled {
+  border: 1px solid #444;
+  cursor: not-allowed;
+}
+
+div.search-container > .input-and-reset-container > button > svg {
+  fill: white;
+}
+
+div.search-container > .input-and-reset-container > button:disabled > svg {
+  fill: grey;
+}
+
 h1 {
   text-align: start;
   font-size: 1rem;
-
 }
 
 ul {
@@ -50,4 +84,14 @@ ul {
   border: 1px solid grey;
   padding: 0;
   border-radius: 3px;
+}
+
+p.no-results {
+  text-align: start;
+}
+
+@media screen and (max-width: 500px) {
+  div.search-container > .input-and-reset-container > input {
+    width: 100%;
+  }
 }
