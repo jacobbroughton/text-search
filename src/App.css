@@ -1,52 +1,52 @@
 #root {
-  max-width: 1280px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10px;
   text-align: center;
 }
 
-input {
+div.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+div.search-container > label {
+  font-size: 0.875rem;
+}
+
+div.search-container > input {
   padding: 10px;
   border: 1px solid grey;
-  background-color: rgba(0, 255, 255, 0.164);
+  background-color: #333;
   margin-right: auto;
   border-radius: 3px;
   display: block;
   position: relative;
+  font-size: 1rem;
+  border-left: 5px teal solid;
 }
 
-input::before {
+div.search-container > input::before {
   content: "Search something";
+  display: block;
   position: absolute;
-  top: 0;
+  top: -10px;
   left: 0;
-  z-index: 1;
+  z-index: 3;
+  color: white;
 }
 
 h1 {
   text-align: start;
+  font-size: 1rem;
+
 }
 
 ul {
   list-style: none;
   border: 1px solid grey;
   padding: 0;
-  border-radius: 3px;;
-}
-
-ul > li {
-  padding: 10px;
-  text-align: start;
-  border-top: 1px solid grey
-}
-
-ul > li:first-child {
-  border-top: none;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-}
-
-ul > li:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-radius: 3px;
 }

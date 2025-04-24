@@ -1,0 +1,1 @@
+export type ResultType = { id: number; content: string; animal: string }
