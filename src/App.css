@@ -26,6 +26,7 @@ div.search-container > input {
   position: relative;
   font-size: 1rem;
   border-left: 5px teal solid;
+  color: white;
 }
 
 div.search-container > input::before {
