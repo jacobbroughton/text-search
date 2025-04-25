@@ -61,7 +61,7 @@ const ResultListItem = ({
     }
   }
 
-  const resultsCount = Object.keys(highlightedIndexHashMap).length;
+  const resultsCount = matchingPairsOfIndexes.length;
   console.log(resultsCount);
 
   return (
