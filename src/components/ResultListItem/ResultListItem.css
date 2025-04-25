@@ -3,6 +3,8 @@ li.result-list-item {
   text-align: start;
   border-top: 1px solid grey;
   font-size: 1rem;
+  position: relative;
+  padding-right: 22px;
 }
 
 li.result-list-item:first-child {
@@ -18,4 +20,19 @@ li.result-list-item:last-child {
 
 li.result-list-item > span.highlighted {
   background-color: rgba(255, 255, 0, 0.25);
+}
+
+li.result-list-item > span.results-count {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #333;
+  border-bottom-left-radius: 3px;
+  padding: 0px 5px;
+  font-size: 0.875rem;
+  color: lightgrey;
+}
+
+li.result-list-item:first-child > span.results-count {
+  border-top-right-radius: 3px;
 }

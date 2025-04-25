@@ -20,7 +20,11 @@ const ResultListItem = ({
       startingIndex = i;
     }
 
-    if (endingIndex - startingIndex + 1 === searchInput.length) {
+    if (
+      startingIndex !== -1 &&
+      endingIndex !== -1 &&
+      endingIndex - startingIndex + 1 === searchInput.length
+    ) {
       matchingPairsOfIndexes.push([startingIndex, endingIndex]);
       startingIndex = -1;
       endingIndex = -1;
@@ -57,11 +61,15 @@ const ResultListItem = ({
     }
   }
 
+  const resultsCount = Object.keys(highlightedIndexHashMap).length;
+  console.log(resultsCount);
+
   return (
     <li key={result.id} className="result-list-item">
       {result.content.split("").map((character, i) => {
         return <span className={`${highlightedIndexHashMap[i] || ""}`}>{character}</span>;
       })}
+      {resultsCount > 0 && <span className="results-count">{resultsCount}</span>}
     </li>
   );
 };
